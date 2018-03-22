@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
     <!-- This my styling CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -17,24 +19,44 @@
             Mark Powalisz
         </div>
         <!-- Navigation Links -->
-        <a href="Portfolio.html" class="links">Portfolio</a>
-        <a href="Contact.html" class="links">Contact Us</a>
-        <a href="Index.html" class="links">Home</a>
+        <div id="wrapper">
+            <a href="Index.html" class="links">Home</a>
+            <a href="Contact.html" class="links">Contact Us</a>
+            <a href="Portfolio.html" class="links">Portfolio</a>
+        </div>
     </header>
     <!-- Main Article -->
     <main>
-        <wrapper id="images">
-            <img src="assets/images/lorem_technics.jpg" alt="its-technical">
-            <img src="assets/images/lorem_technics.jpg" alt="its-technical">
-            <img src="assets/images/lorem_technics.jpg" alt="its-technical">
-            <br>
-            <img src="assets/images/lorem_technics.jpg" alt="its-technical">
-            <img src="assets/images/lorem_technics.jpg" alt="its-technical">
-            <img src="assets/images/lorem_technics.jpg" alt="its-technical">
-        <wrappper>
+        <section>
+            <h3>Gallery</h3>
+            <hr>
+            <div id="images">
+                <img class="placeholder placeholder-1" src="assets/images/lorem_technics.jpg" alt="its-technical">
+                <img class="placeholder placeholder-2" src="assets/images/lorem_technics.jpg" alt="its-technical">
+                <img class="placeholder placeholder-3" src="assets/images/lorem_technics.jpg" alt="its-technical">
+                <br>
+                <img class="placeholder placeholder-4" src="assets/images/lorem_technics.jpg" alt="its-technical">
+                <img class="placeholder placeholder-5" src="assets/images/lorem_technics.jpg" alt="its-technical">
+                <img class="placeholder placeholder-6" src="assets/images/lorem_technics.jpg" alt="its-technical">
+            </div>
+        </section>
+        <aside>
+            <h3>Learn More</h3>
+            <hr>
+            <a href="https://github.com/FenixRising13">
+                <img class="img_link" src="assets/images/git_cat.png" alt="git_cat">
+            </a>
+            <a href="https://www.linkedin.com/in/mark-powalisz/">
+                <img class="img_link" src="assets/images/linkedin.png" alt="linkedin">
+            </a>
+            <a href="https://stackoverflow.com/users/9009095/markpowalisz?tab=profile">
+                <img class="img_link" src="assets/images/stackoverflow.png" alt="stackoverflow">
+            </a>
+        </aside>
     </main>
-    <aside>
-        
-    </aside>
+    <footer>
+        Copyright © 2018 MarkPowalisz
+    </footer>
 </body>
+
 </html>

@@ -3,7 +3,7 @@
 ## Description
 The goal here was to create a basic portfolio with HTML and CSS.
 
-##Technologies Used
+## Technologies Used
 * HTML
 * CSS
 
@@ -11,7 +11,7 @@ The goal here was to create a basic portfolio with HTML and CSS.
 Visual Studio Code
 
 ## Screenshot
-"#"
+![basicportfolio](assets/images/basicportfolio.png "Basic Portfolio")
 
 ## Author
 Mark Powalisz
